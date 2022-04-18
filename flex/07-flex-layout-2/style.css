@@ -37,6 +37,7 @@ a {
 .sidebar {
   width: 300px;
   background: royalblue;
+  flex-shrink: 0;
 }
 
 .card {
@@ -55,4 +56,9 @@ a {
   flex-direction: column;
   gap: 12px;
   padding: 10px;
+}
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+
 }
