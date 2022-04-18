@@ -6,6 +6,16 @@ body {
   flex-direction: column;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
 .header {
   height: 72px;
   background: darkmagenta;
@@ -37,4 +47,12 @@ body {
 
 .content-n-side {
   flex: 2;
+  display: flex;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 10px;
 }
